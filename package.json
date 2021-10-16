@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "y-webrtc": "^10.2.0",
+    "yjs": "^13.5.16"
+  }
+}
