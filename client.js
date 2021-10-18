@@ -1,10 +1,12 @@
 /* eslint-env browser */
 
+// https://github.com/yjs/y-webrtc/blob/master/demo/index.js
+
 import * as Y from 'yjs'
 import { WebrtcProvider } from 'y-webrtc'
 
 const ydoc = new Y.Doc()
-const provider = new WebrtcProvider('webrtc-test', ydoc, { signaling: ['ws://localhost:4444'] })
+const provider = new WebrtcProvider('webrtc-test', ydoc, { signaling: ['ws://localhost:5555'] })
 const yarray = ydoc.getArray()
 
 provider.on('synced', synced => {
